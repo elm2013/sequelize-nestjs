@@ -17,14 +17,14 @@ export class AuthController {
 
     ) { }
 
-    @Post('/login')
+    @Post('v1/login')
     async login(@Body() auth: AuthModel) {
         return await this.authService.authenticate(auth);
 
 
     }
 
-    @Post('/register')
+    @Post('v1/register')
     async register(@Body() userModel: UserModel) {
         return await this.authService.rigister(userModel);
     }
