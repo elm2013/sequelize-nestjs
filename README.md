@@ -21,9 +21,12 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
+
 ```
+
+## Result
+
+http://localhost:3000/doc
 
 ## Stay in touch
 
